@@ -32,7 +32,10 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
 	implementation 'org.springframework.cloud:spring-cloud-starter-stream-kafka'
 	implementation 'io.confluent:kafka-avro-serializer:6.1.1'
+	implementation 'android.arch.work:work-runtime:1.0.1'
 	compileOnly 'org.apache.avro:avro:1.10.2'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
 	runtimeOnly 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
